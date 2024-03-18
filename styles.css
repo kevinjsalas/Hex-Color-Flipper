@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Madimi+One&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Madimi One", sans-serif;
+    color: white;
+}
+
+body {
+    min-height: 100vh;
+    background: url("https://tinyurl.com/2t4fdnmp") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 50px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    font-stretch: 2px;
+}
+
+.navBar a {
+    font-size: 100%;
+    color: white;
+    margin-left: 40px;
+}
+
+.container {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255,255,255,0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px 2px rgba(0,0,0,0.25);
+    border-radius: 10px;
+    justify-items: center;
+    justify-content: space-around;
+    align-items: center;
+    top: 25%;
+    left: 20%;
+    /* right: 25%; */
+    height: 50vh;
+    width: 60%;
+} .hexHeader {
+    font-size: 300%;
+}
+
+.btn {
+    height: 100px;
+    width: 200px;
+    background: transparent;
+    opacity: 100;
+    border-radius: 50px;
+    border: solid 2px;
+    font-size: 150%;
+    
+} .btn:hover {
+    background-color: rgba(0,0,0,0.2);
+}
+
+.hexColor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 80%;
+    border: double 6px white;
+    border-radius: 10px;
+} .hexCode {
+    font-size: 400%;
+}
+
+.buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
